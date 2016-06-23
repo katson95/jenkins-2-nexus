@@ -38,7 +38,8 @@
         <snapshotRepository>
             <id>maven-snapshots</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://192.168.99.101:8083/repository/maven-snapshots/</url>
+            <url>http://192.168.99.100:8083/repository/nuget.org-proxy/</url>
+            <!--<url>http://192.168.99.101:8083/repository/maven-snapshots/</url>-->
         </snapshotRepository>
     </distributionManagement>
     <build>
